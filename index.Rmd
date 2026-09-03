@@ -1,0 +1,105 @@
+---
+pagetitle: "Torts Simplified"
+---
+
+```{=html}
+<section class="hero" id="top">
+  <div class="motion">
+    <div class="blob b1"></div><div class="blob b2"></div><div class="blob b3"></div>
+    <div class="veil"></div><div class="grain"></div>
+  </div>
+  <div class="wrap hero-in" id="heroin">
+    <div class="hero-copy">
+      <div class="eyebrow in">Mass tort operations for law firms</div>
+      <h1 class="in">We build &amp; manage it.<br>You own it.</h1>
+      <p class="sub in">The entire ecosystem your firm needs to establish a profitable, scalable mass tort practice.</p>
+      <div class="hero-actions in">
+        <a class="btn btn-lg" href="https://calendly.com/REPLACE-WITH-SERGE-CALENDLY">Schedule a Discovery Call</a>
+        <a class="ghost" href="services.html">Our Services
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#12151A" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="13 6 19 12 13 18"></polyline></svg>
+        </a>
+      </div>
+    </div>
+    <div class="portrait clip"><img id="heroimg" src="images/serge-hero.jpg" alt="Serge Zenin, Founder and CEO of Torts Simplified"></div>
+  </div>
+  <div class="scrollcue"><i></i> Scroll</div>
+</section>
+
+<section class="band-white">
+  <div class="wrap pad two">
+    <p class="lead r">Torts Simplified is a strategic partner to law firms that delivers the entire ecosystem of resources they need to establish a profitable, scalable mass tort practice.</p>
+    <p class="body r s1">Our turnkey, customized solution enables law firms to internally execute tort operations more efficiently and cost effectively by leveraging their existing systems and processes to increase profitability, drive better case quality, and reduce risk.</p>
+  </div>
+</section>
+
+<section class="sec">
+  <div class="wrap pad">
+    <div class="two head-rule">
+      <div class="r">
+        <div class="eyebrow" style="margin-bottom:24px">How we work</div>
+        <h2 class="big">Assess. Build. Manage.</h2>
+      </div>
+      <p class="body r s1" style="padding-top:8px">Whether you are a firm looking to enter the mass tort sector, or a firm currently in the market looking to increase competitive advantage, Torts Simplified will help you optimize ROI by:</p>
+    </div>
+    <div class="cards">
+      <div class="card r">
+        <div class="num">01</div>
+        <h3>Assessing your needs</h3>
+        <p>We start with what you already have running: your systems, your processes, and where the operation is leaking value.</p>
+      </div>
+      <div class="card r s1">
+        <div class="num">02</div>
+        <h3>Building the infrastructure for you</h3>
+        <p>Vendors, intake flows, campaigns, validation, reporting. Custom built on top of the systems your firm already uses.</p>
+      </div>
+      <div class="card r s2">
+        <div class="num">03</div>
+        <h3>Managing as much or as little as you like</h3>
+        <p>Stay hands off and let us run it, or take the controls yourself. The infrastructure is yours either way.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="deep">
+  <div class="glow" id="glow"></div>
+  <div class="wrap pad inner">
+    <div class="eyebrow r">The Torts Simplified model</div>
+    <h2 class="r s1">
+      <span class="rline l1"><span>Own your infrastructure.</span></span>
+      <span class="rline l2"><span>Keep complete transparency into</span></span>
+      <span class="rline l3"><span>case value, spending and performance.</span></span>
+    </h2>
+  </div>
+</section>
+
+<section class="sec">
+  <div class="wrap pad founder">
+    <div class="fimg r"><img id="fimg" src="images/serge-portrait.jpg" alt="Serge Zenin"></div>
+    <div>
+      <div class="eyebrow r" style="margin-bottom:26px">Leadership</div>
+      <h2 class="big r s1">Led by Serge Zenin</h2>
+      <p class="body r s1" style="margin-top:30px">Torts Simplified is led by Serge Zenin, an expert in both building mass tort operations from scratch and optimizing and enhancing existing operations at every stage of the lifecycle.</p>
+      <div class="roles">
+        <div class="role r"><span>Director of Mass Torts</span><span>Darrow AI</span></div>
+        <div class="role r s1"><span>VP of Operations</span><span>Pioneertown Media</span></div>
+        <div class="role r s2"><span>General Manager</span><span>Morgan &amp; Morgan, P.A.</span></div>
+        <div class="role r s3"><span>COO &amp; Co-founder</span><span>Justpoint</span></div>
+      </div>
+      <a class="ghost" href="contact.html" style="margin-top:28px">Read Serge's full background
+        <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#12151A" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="13 6 19 12 13 18"></polyline></svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="sec" style="padding-top:0">
+  <div class="wrap pad">
+    <div class="ctabox r">
+      <h2>Schedule a discovery call</h2>
+      <p class="body" style="max-width:520px">Book time directly with Serge to talk through where your operation is today.</p>
+      <a class="btn btn-lg" style="margin-top:10px" href="https://calendly.com/REPLACE-WITH-SERGE-CALENDLY">Schedule a Discovery Call</a>
+    </div>
+  </div>
+</section>
+```

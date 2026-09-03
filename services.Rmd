@@ -1,0 +1,116 @@
+---
+pagetitle: "Services | Torts Simplified"
+---
+
+```{=html}
+<section class="sec pagetop">
+  <div class="wrap pad">
+    <div class="eyebrow r" style="margin-bottom:30px">Our services</div>
+    <div class="two wide" style="align-items:end">
+      <h1 class="big r s1" style="font-size:clamp(38px,4.6vw,64px)">Four core promises, delivered by the parts of the operation you actually need.</h1>
+      <p class="body r s2" style="padding-bottom:10px">At Torts Simplified, we're committed to compliance and jurisdiction-specific ethical rules, and keep our fingers on the pulse of the constantly changing legal landscape.</p>
+    </div>
+  </div>
+</section>
+
+<section class="sec" style="padding-top:0">
+  <div class="wrap pad">
+    <div class="promises">
+      <div class="card r">
+        <div class="cardhead"><div class="num sm">01</div><h3>Increase Profitability</h3></div>
+        <p>Drive more qualified leads into the pipeline, improve case quality, reduce costs, minimize fall out, and allocate resources toward the highest-value opportunities.</p>
+      </div>
+      <div class="card r s1">
+        <div class="cardhead"><div class="num sm">02</div><h3>Scale Faster</h3></div>
+        <p>Quickly invest in and scale high-performing campaigns without having to allocate internal operational resources to build out the technology and infrastructure.</p>
+      </div>
+      <div class="card r s1">
+        <div class="cardhead"><div class="num sm">03</div><h3>Operate More Efficiently</h3></div>
+        <p>Streamlined workflows, automated operational processes, and reduced administrative burdens free your team to focus on high-value decisions and client relationships.</p>
+      </div>
+      <div class="card r s2">
+        <div class="cardhead"><div class="num sm">04</div><h3>Maintain Control &amp; Visibility</h3></div>
+        <p>Own your infrastructure, have complete transparency into case value, spending and performance, and access real-time data to make informed decisions.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" style="padding-top:0">
+  <div class="wrap pad">
+    <div class="head-rule r" style="max-width:760px">
+      <div class="eyebrow" style="margin-bottom:24px">Modular services</div>
+      <h2 class="big">We custom build and/or improve only what you need.</h2>
+    </div>
+
+    <div class="group r">
+      <h3 class="grouptitle">Launch &amp; Acquisition</h3>
+      <div class="items">
+        <div class="item">
+          <div class="itemname">Mass Tort Infrastructure Build-Out</div>
+          <p>Ongoing selection and management of highly vetted vendors: call centers, intake flows, landing pages, questionnaire forms, integrations, CRM systems, medical records retrieval and review vendors, and case workup vendors for filing and litigation.</p>
+        </div>
+        <div class="item">
+          <div class="itemname">Marketing &amp; Ad Spend Management</div>
+          <p>Multi-channel campaign creation and management (ads, creatives, digital and organic advertising, landing pages); cost-per-acquisition analysis; market saturation and risk assessments; recommendations on whether to scale or pause campaigns based on cost, performance, and quality.</p>
+        </div>
+        <div class="item">
+          <div class="itemname">Referral Partners</div>
+          <p>Access to additional litigations and introductions to potential referral partners.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="group r">
+      <h3 class="grouptitle">Conversion &amp; Validation</h3>
+      <div class="items">
+        <div class="item">
+          <div class="itemname">Flow Optimization</div>
+          <p>Build processes and automation journeys that move high quality leads to the next step and yield end-to-end improvement of the mass tort flow: advertising, intake, retention, automated questionnaires, validation, engagement, lead tiering, and follow-up.</p>
+        </div>
+        <div class="item">
+          <div class="itemname">Lead &amp; Case Validation</div>
+          <p>Implement processes that validate leads, then advance validated cases toward filing readiness.</p>
+        </div>
+        <div class="item">
+          <div class="itemname">Special Projects</div>
+          <p>Plaintiff fact sheet collection and review; secondary client questionnaires; re-engagement with unresponsive clients; development of time-sensitive campaigns that need a dedicated, purpose-built workflow.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="group r last">
+      <h3 class="grouptitle">Value &amp; Capital</h3>
+      <div class="items">
+        <div class="item">
+          <div class="itemname">Case Value &amp; Underwriting</div>
+          <p>Underwriting and ongoing ROI calculations per tort for better decision making.</p>
+        </div>
+        <div class="item">
+          <div class="itemname">Tort &amp; Portfolio Strategy</div>
+          <p>Strategic input on timing to invest, cost, and expected value across the portfolio.</p>
+        </div>
+        <div class="item">
+          <div class="itemname">Litigation Funding Readiness</div>
+          <p>Funding strategies; access to litigation funding capital; funder due diligence and proposal preparation; ROI calculations that clarify the value of claims.</p>
+        </div>
+        <div class="item">
+          <div class="itemname">Reporting &amp; Dashboards</div>
+          <p>Trend analysis and streamlined reports that track status, quality, ROI, and lead and client volume.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="deep">
+  <div class="glow"></div>
+  <div class="wrap pad inner">
+    <h2 class="r">
+      <span class="rline l1"><span>Schedule a discovery call</span></span>
+    </h2>
+    <p class="body r s1" style="color:var(--tint);max-width:560px">Tell us what your operation looks like today and we will tell you which modules are worth building.</p>
+    <a class="btn btn-lg r s2" style="background:#fff;color:var(--deep);font-weight:600;margin-top:10px" href="https://calendly.com/REPLACE-WITH-SERGE-CALENDLY">Schedule a Discovery Call</a>
+  </div>
+</section>
+```

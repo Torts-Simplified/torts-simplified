@@ -1,0 +1,14 @@
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj.user
+
+# rendered intermediates
+*_files/
+*_cache/
+.DS_Store
+
+# never commit anything holding the contact address or form keys
+.Renviron
+.env

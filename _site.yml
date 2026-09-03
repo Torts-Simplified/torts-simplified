@@ -1,0 +1,16 @@
+name: "torts-simplified"
+output_dir: "docs"
+exclude: ["build.R", "README.md", "*.Rproj", ".github", "includes"]
+
+output:
+  html_document:
+    theme: null
+    highlight: null
+    self_contained: false
+    lib_dir: "assets"
+    mathjax: null
+    css: "styles.css"
+    includes:
+      in_header: "includes/in_header.html"
+      before_body: "includes/before_body.html"
+      after_body: "includes/after_body.html"
