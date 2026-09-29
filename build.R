@@ -11,4 +11,10 @@ rmarkdown::render_site(encoding = "UTF-8")
 # underscore. This empty file turns that off so every asset is published.
 file.create(file.path("docs", ".nojekyll"))
 
+# The custom domain. GitHub writes this file itself when you save the domain
+# under Settings > Pages, but render_site() rewrites docs/ on every build and
+# would drop it, which quietly detaches the domain. Writing it here means it
+# survives every render.
+writeLines("tortssimplified.com", file.path("docs", "CNAME"))
+
 message("Done. Commit the docs/ folder and push.")
