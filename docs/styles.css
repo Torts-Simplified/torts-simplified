@@ -233,3 +233,42 @@
   .fcols > .brandblock{flex:1 1 100%;min-width:0;max-width:100%}
   .ftag{font-size:20px;white-space:normal}
 }
+
+/* ================= phones: home hero and contact hero ================= */
+@media (max-width:760px){
+  /* Flatten .hero-copy so its children become items of .hero-in.
+     That lets the photo sit between the copy and the button. */
+  .hero-in{display:flex;flex-direction:column;align-items:center;
+           text-align:center;gap:20px;padding:34px 24px 40px}
+  .hero-copy{display:contents}
+
+  .hero-in .eyebrow{justify-content:center;flex-wrap:wrap;gap:10px;
+                    font-size:14px;letter-spacing:.1em;line-height:1.35}
+  .hero-in .eyebrow::before{width:30px;height:4px}
+  .hero-in h1{font-size:30px;line-height:1.14}
+  .hero-in .tagline{margin-left:0;font-size:24px}
+  .hero-in .lead{max-width:none !important;font-size:18px}
+
+  .hero-in .portrait{order:5;width:min(300px,80%);margin:4px auto 0;
+                     aspect-ratio:4/5;align-self:center}
+  .hero-in .actions{order:6;justify-content:center;width:100%;margin-top:2px}
+  .hero-in .actions .btn{width:100%;max-width:320px}
+
+  /* Contact: photo below the founder copy but above Education.
+     Flattening the copy column lets the photo slot in between. */
+  .contacthero{display:flex;flex-direction:column;align-items:stretch;gap:14px}
+  .contacthero > div:not(.fimg){display:contents}
+  .contacthero > .fimg{order:5;align-self:center;width:min(280px,78%);max-width:none;margin-top:10px}
+  .contacthero .edu{order:6}
+}
+
+/* Contact: centre the one call to action on phones. */
+@media (max-width:760px){
+  .contacthero .routes{justify-content:center;width:100%}
+  .contacthero .routes .btn{width:100%;max-width:320px}
+}
+
+/* Home page Leadership: centre Serge's photo on phones. */
+@media (max-width:760px){
+  .founder > .fimg{width:min(260px,72%);max-width:none;margin-left:auto;margin-right:auto}
+}
