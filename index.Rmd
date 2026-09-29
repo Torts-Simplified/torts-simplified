@@ -30,17 +30,14 @@ pagetitle: "Torts Simplified"
     </div>
     <div class="cards">
       <div class="card">
-        <div class="chip">01</div>
         <h3>Assessing your needs</h3>
         <p>We start with what you already have running: your systems, your processes, and where the operation is leaking value.</p>
       </div>
       <div class="card">
-        <div class="chip">02</div>
         <h3>Building the infrastructure for you</h3>
         <p>Vendors, intake flows, campaigns, validation, reporting. Custom built on top of the systems your firm already uses.</p>
       </div>
       <div class="card">
-        <div class="chip">03</div>
         <h3>Managing as much or as little as you like</h3>
         <p>Stay hands off and let us run it, or take the controls yourself. The infrastructure is yours either way.</p>
       </div>

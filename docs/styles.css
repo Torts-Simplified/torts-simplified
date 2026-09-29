@@ -55,7 +55,7 @@
   .cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:30px;margin-top:54px}
   .card{border:2px solid var(--navy);border-top:8px solid var(--cyan);padding:32px 30px 38px;display:flex;flex-direction:column}
   .chip{align-self:flex-start;background:var(--cyan);color:var(--navy);font-size:17px;font-weight:800;letter-spacing:.1em;padding:5px 12px}
-  .card h3{font-size:23px;font-weight:700;margin-top:22px}
+  .card h3{font-size:23px;font-weight:700;margin-top:0}
   .card p{font-size:18px;line-height:1.58;margin-top:12px}
 
   .deep{background:var(--navy);padding:104px 0;position:relative;overflow:hidden}
