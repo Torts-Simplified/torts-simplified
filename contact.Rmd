@@ -9,14 +9,14 @@ pagetitle: "Contact | Torts Simplified"
     <div class="fimg"><img src="images/portrait.jpg" alt="Serge Zenin, Founder and CEO of Torts Simplified"></div>
     <div>
       <div class="eyebrow">Founder &amp; CEO</div>
-      <h1 style="margin-top:20px">Serge Zenin</h1>
+      <h1 style="margin-top:20px">Serge Zenin, Esq.</h1>
       <p class="lead" style="margin-top:22px">Torts Simplified's Founder &amp; CEO, Serge Zenin, brings extensive experience building and managing profitable mass tort operations both as an in-house leader and an external service provider.</p>
       <div class="poc">
         <span class="tag">Your point of contact</span>
         <p class="p1">Serge works with you <em>directly</em>, from the first call through every campaign.</p>
         <p class="p2">He is supported by a team of specialists in mass tort marketing and operations analysis, along with a vetted network of technology, intake, and case preparation partners.</p>
       </div>
-      <div class="routes"><a class="btn btn-lg" href="https://calendly.com/serge-tortssimplified/30min">Schedule a Discovery Call</a></div>
+      <div class="routes"><a class="btn btn-lg" href="https://calendly.com/serge-tortssimplified/30min" target="_blank" rel="noopener noreferrer">Schedule a Discovery Call</a></div>
       <div class="edu">
         <div class="t">Education &amp; Bar Admissions</div>
         <div>J.D., Fordham University School of Law</div>
@@ -30,8 +30,8 @@ pagetitle: "Contact | Torts Simplified"
 <section class="sec">
   <div class="wrap pad">
     <div class="head-rule">
-      <div class="eyebrow">Background</div>
-      <h2 class="markline" style="margin-top:22px;max-width:860px"><span>Built mass tort operations from the inside and as an external service provider.</span></h2>
+      <div class="eyebrow">Serge Zenin's background</div>
+      <h2 class="markline wide" style="margin-top:22px"><span>Built mass tort operations from the inside and as an external service provider.</span></h2>
     </div>
     <div style="margin-top:20px">
       <div class="bgrow"><div><div class="bgtitle">Director of Mass Torts</div><div class="bgorg">Darrow AI</div></div>

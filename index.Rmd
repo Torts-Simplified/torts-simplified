@@ -26,7 +26,7 @@ pagetitle: "Torts Simplified"
         <div class="eyebrow">How we work</div>
         <h2 style="margin-top:22px">Assess. Build. Manage.</h2>
       </div>
-      <p class="lead" style="padding-top:4px">Whether you are a firm looking to enter the mass tort sector, or a firm currently in the market looking to increase competitive advantage, Torts Simplified will help you optimize ROI by:</p>
+      <p class="lead" style="padding-top:4px">Whether you are a firm looking to enter the mass tort sector or a firm currently in the market looking to increase competitive advantage, Torts Simplified will help you optimize your ROI.</p>
     </div>
     <div class="cards">
       <div class="card">
@@ -58,7 +58,7 @@ pagetitle: "Torts Simplified"
     <div class="fimg"><img src="images/portrait.jpg" alt="Serge Zenin"></div>
     <div>
       <div class="eyebrow">Leadership</div>
-      <h2 style="margin-top:22px">Led by Serge Zenin</h2>
+      <h2 style="margin-top:22px">Led by Serge Zenin, Esq.</h2>
       <p class="lead" style="margin-top:24px">Torts Simplified is led by Serge Zenin, an expert in both building mass tort operations from scratch and optimizing and enhancing existing operations at every stage of the lifecycle.</p>
       <div class="roles">
         <div class="role"><span>Director of Mass Torts</span><em>Darrow AI</em></div>

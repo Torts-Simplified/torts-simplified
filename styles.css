@@ -272,3 +272,9 @@
 @media (max-width:760px){
   .founder > .fimg{width:min(260px,72%);max-width:none;margin-left:auto;margin-right:auto}
 }
+
+/* A headline meant to run as one line across the column.
+   Sized off the viewport so it still fits as the window narrows. */
+.markline.wide{font-size:clamp(20px,2.35vw,34px);line-height:1.5}
+@media (max-width:1180px){ .markline.wide{font-size:clamp(17px,2.55vw,28px);line-height:1.55} }
+@media (max-width:760px){ .markline.wide{font-size:22px;line-height:1.6} }
