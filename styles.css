@@ -201,3 +201,35 @@
 @media (prefers-reduced-motion:reduce){
   .blob{animation:none !important}
 }
+
+/* ---- scroll reveal (desktop only; .rv is added by site.js) ---- */
+.rv{opacity:0;transform:translateY(22px);
+    transition:opacity .72s cubic-bezier(.22,.7,.3,1),transform .72s cubic-bezier(.22,.7,.3,1)}
+.rv.in{opacity:1;transform:none}
+@media (max-width:760px){
+  .rv{opacity:1 !important;transform:none !important;transition:none !important}
+}
+@media (prefers-reduced-motion:reduce){
+  .rv{opacity:1 !important;transform:none !important;transition:none !important}
+}
+
+/* ---- mobile header: keep the links, stack the call to action ----
+   Three centred rows (logo / links / button) so it survives a 320px
+   phone. Not sticky here, because a 150px bar eats too much screen. */
+@media (max-width:760px){
+  header{position:static}
+  header nav{height:auto;flex-wrap:wrap;justify-content:center;gap:11px;padding:13px 0}
+  header nav > a{display:flex;justify-content:center;width:100%}
+  header nav > a img{height:40px !important}
+  .links{width:100%;display:flex;flex-wrap:wrap;justify-content:center;gap:20px}
+  .links a:not(.btn){display:inline-flex;font-size:16px;font-weight:600}
+  .links a.btn{width:100%;justify-content:center;height:50px;font-size:16px;white-space:nowrap}
+}
+
+/* ---- phones: let the footer brand block shrink ----
+   It was flex:0 0 auto, so it kept its max-content width and pushed
+   the page wider than the screen on a 320-360px phone. */
+@media (max-width:760px){
+  .fcols > .brandblock{flex:1 1 100%;min-width:0;max-width:100%}
+  .ftag{font-size:20px;white-space:normal}
+}
