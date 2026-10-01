@@ -56,8 +56,7 @@ pagetitle: "Torts Simplified"
 </section>
 
 <section class="sec">
-  <div class="wrap pad founder">
-    <div class="fimg"><img src="images/portrait.jpg" alt="Serge Zenin"></div>
+  <div class="wrap pad founder solo">
     <div>
       <div class="eyebrow">Leadership</div>
       <h2 style="margin-top:22px">Serge Zenin, Esq., Founder &amp; CEO</h2>

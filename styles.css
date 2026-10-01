@@ -525,3 +525,13 @@ section.pagetop:last-of-type{padding-bottom:104px}
 .bio .markline.wide{font-size:clamp(19px,1.5vw,24px);line-height:1.55}
 .bio .bgrow{grid-template-columns:1fr;gap:6px;padding:16px 0}
 .bio .edu{margin-top:30px;padding-top:26px}
+
+/* Leadership with no portrait: the two-column grid has nothing to hold on
+   the left, so the bio runs as a single column at a readable measure. */
+.founder.solo{display:block}
+.founder.solo .bio{margin-top:44px}
+.founder.solo .bio .bgrow{grid-template-columns:330px minmax(0,1fr);gap:56px;padding:19px 0}
+.founder.solo .bio .markline.wide{font-size:clamp(20px,2.35vw,34px);line-height:1.5}
+@media (max-width:1180px){
+  .founder.solo .bio .bgrow{grid-template-columns:1fr;gap:9px;padding:15px 0}
+}
