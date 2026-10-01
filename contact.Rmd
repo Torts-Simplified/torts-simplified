@@ -13,7 +13,7 @@ pagetitle: "Contact | Torts Simplified"
       <p class="lead" style="margin-top:22px">Torts Simplified's Founder &amp; CEO, Serge Zenin, brings <a class="inlink" href="index.html#background">extensive experience</a> building and managing profitable mass tort operations both as an in-house leader and an external service provider.</p>
       <div class="poc">
         <span class="tag">Your point of contact</span>
-        <p class="p1">Serge works with you <em>directly</em>, from the first call through the entire lifecycle of your campaign.</p>
+        <p class="p1">Serge works with you <em>directly</em>, from the first call through the entire lifecycle of the litigation.</p>
         <p class="p2">He is supported by a team of specialists in mass tort marketing and operations analysis, along with a vetted network of technology, intake, and case preparation partners.</p>
       </div>
       <div class="routes"><a class="btn btn-lg" href="https://calendly.com/serge-tortssimplified/30min" target="_blank" rel="noopener noreferrer">Schedule a Discovery Call</a><a class="btn btn-lg btn-out" href="https://www.linkedin.com/in/serge-zenin/" target="_blank" rel="noopener noreferrer">Message me on LinkedIn</a></div>
