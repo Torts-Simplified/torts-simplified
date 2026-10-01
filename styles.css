@@ -544,3 +544,9 @@ section.pagetop:last-of-type{padding-bottom:104px}
 .pagehead{align-items:start}
 .pagehead .lead{padding-top:10px}
 @media (max-width:1180px){ .pagehead .lead{padding-top:0} }
+
+/* The headline and its paragraph now stack rather than sitting side by side,
+   so the supporting line reads as a continuation of the promise rather than
+   a separate column. Measure capped so it does not run the full 1264px. */
+.pagehead{display:block}
+.pagehead .lead{padding-top:0;margin-top:24px;max-width:60ch;padding-bottom:0}
