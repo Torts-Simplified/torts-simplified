@@ -535,3 +535,12 @@ section.pagetop:last-of-type{padding-bottom:104px}
 @media (max-width:1180px){
   .founder.solo .bio .bgrow{grid-template-columns:1fr;gap:9px;padding:15px 0}
 }
+
+/* ================= Services page head =================
+   The two columns were bottom-aligned, so the one-line headline dropped to
+   the foot of a row whose height came from the four-line paragraph, leaving
+   a gap under the eyebrow. Top-align them, with a nudge on the paragraph so
+   its first line sits on the headline's cap height rather than above it. */
+.pagehead{align-items:start}
+.pagehead .lead{padding-top:10px}
+@media (max-width:1180px){ .pagehead .lead{padding-top:0} }
