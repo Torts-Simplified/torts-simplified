@@ -507,3 +507,40 @@ footer .fcols{justify-content:flex-start;gap:150px}
   .contacthero > .fimg img{position:absolute;inset:0;width:100%;height:100%;
                            object-fit:cover;object-position:50% 12%}
 }
+
+/* .pagetop carries no bottom padding because another section always followed
+   it. On Contact it is now the last one, so the photo ran into the footer. */
+section.pagetop:last-of-type{padding-bottom:104px}
+@media (max-width:1180px){ section.pagetop:last-of-type{padding-bottom:64px} }
+
+/* ================= About: one bio block beside the portrait =================
+   With the short roles list gone, a 620px portrait stood beside three lines
+   of text and left a large void. Folding the background and education into
+   the same column gives the photo something to stand next to. The job rows
+   stack inside the narrower column rather than keeping their two-column
+   title/description split. */
+.founder{align-items:start}
+.bio{margin-top:40px}
+.bio .head-rule{padding-bottom:26px}
+.bio .markline.wide{font-size:clamp(19px,1.5vw,24px);line-height:1.55}
+.bio .bgrow{grid-template-columns:1fr;gap:6px;padding:16px 0}
+.bio .edu{margin-top:30px;padding-top:26px}
+
+/* Leadership with no portrait: the two-column grid has nothing to hold on
+   the left, so the bio runs as a single column at a readable measure. */
+.founder.solo{display:block}
+.founder.solo .bio{margin-top:44px}
+.founder.solo .bio .bgrow{grid-template-columns:330px minmax(0,1fr);gap:56px;padding:19px 0}
+.founder.solo .bio .markline.wide{font-size:clamp(20px,2.35vw,34px);line-height:1.5}
+@media (max-width:1180px){
+  .founder.solo .bio .bgrow{grid-template-columns:1fr;gap:9px;padding:15px 0}
+}
+
+/* ================= Services page head =================
+   The two columns were bottom-aligned, so the one-line headline dropped to
+   the foot of a row whose height came from the four-line paragraph, leaving
+   a gap under the eyebrow. Top-align them, with a nudge on the paragraph so
+   its first line sits on the headline's cap height rather than above it. */
+.pagehead{align-items:start}
+.pagehead .lead{padding-top:10px}
+@media (max-width:1180px){ .pagehead .lead{padding-top:0} }
