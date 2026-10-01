@@ -279,17 +279,17 @@
 @media (max-width:1180px){ .markline.wide{font-size:clamp(17px,2.55vw,28px);line-height:1.55} }
 @media (max-width:760px){ .markline.wide{font-size:22px;line-height:1.6} }
 
-/* ================= logo at double size ================= */
-header nav > a img{height:104px !important}
-footer .brandblock img{height:104px !important}
-@media (max-width:1180px){
+/* ================= logo at double size =================
+   Scoped away from phones: the phone header is a three-row stack with an
+   auto height, and a fixed height here was clipping it. */
+@media (min-width:1181px){
+  header nav > a img{height:104px !important}
+  footer .brandblock img{height:104px !important}
+}
+@media (min-width:761px) and (max-width:1180px){
   header nav{height:112px}
   header nav > a img{height:86px !important}
   footer .brandblock img{height:86px !important}
-}
-@media (max-width:760px){
-  header nav > a img{height:70px !important}
-  footer .brandblock img{height:70px !important}
 }
 
 /* ================= services: four promises, four colours =================
@@ -348,10 +348,12 @@ footer .brandblock img{height:104px !important}
    thing on the page. With a large mark here, the one in the sticky bar
    steps back so the two don't compete a hundred pixels apart. */
 .herologo{height:150px;display:block;margin:0 0 6px}
-header nav{height:104px}
-header nav > a img{height:72px !important}
-footer .brandblock img{height:88px !important}
-@media (max-width:1180px){
+@media (min-width:1181px){
+  header nav{height:104px}
+  header nav > a img{height:72px !important}
+  footer .brandblock img{height:88px !important}
+}
+@media (min-width:761px) and (max-width:1180px){
   .herologo{height:112px}
   header nav{height:92px}
   header nav > a img{height:62px !important}
@@ -359,6 +361,7 @@ footer .brandblock img{height:88px !important}
 }
 @media (max-width:760px){
   .herologo{height:96px;margin:0 auto 4px}
+  header nav{height:auto !important}
   header nav > a img{height:58px !important}
   footer .brandblock img{height:64px !important}
 }
@@ -550,3 +553,21 @@ section.pagetop:last-of-type{padding-bottom:104px}
    a separate column. Measure capped so it does not run the full 1264px. */
 .pagehead{display:block}
 .pagehead .lead{padding-top:0;margin-top:24px;max-width:60ch;padding-bottom:0}
+
+/* ================= footer spans the full width =================
+   One narrow stacked column left most of the bar empty whichever way it was
+   aligned. Laying the links out in a row gives the right-hand block real
+   width, so the brand holds one edge and the links the other. */
+@media (min-width:1181px){
+  footer .fcols{justify-content:space-between;align-items:center;gap:40px}
+  footer .fcol{flex-direction:row;align-items:center;gap:46px;min-width:0}
+  footer .fcol .t{margin-bottom:0}
+  footer .fcol a{font-size:19px}
+}
+
+/* Phone footer: the 60px gap meant for side-by-side columns left a hole
+   between the tagline and the links once they stack. */
+@media (max-width:760px){
+  footer .fcols{gap:30px}
+  footer{padding:44px 0 32px}
+}
