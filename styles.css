@@ -507,3 +507,21 @@ footer .fcols{justify-content:flex-start;gap:150px}
   .contacthero > .fimg img{position:absolute;inset:0;width:100%;height:100%;
                            object-fit:cover;object-position:50% 12%}
 }
+
+/* .pagetop carries no bottom padding because another section always followed
+   it. On Contact it is now the last one, so the photo ran into the footer. */
+section.pagetop:last-of-type{padding-bottom:104px}
+@media (max-width:1180px){ section.pagetop:last-of-type{padding-bottom:64px} }
+
+/* ================= About: one bio block beside the portrait =================
+   With the short roles list gone, a 620px portrait stood beside three lines
+   of text and left a large void. Folding the background and education into
+   the same column gives the photo something to stand next to. The job rows
+   stack inside the narrower column rather than keeping their two-column
+   title/description split. */
+.founder{align-items:start}
+.bio{margin-top:40px}
+.bio .head-rule{padding-bottom:26px}
+.bio .markline.wide{font-size:clamp(19px,1.5vw,24px);line-height:1.55}
+.bio .bgrow{grid-template-columns:1fr;gap:6px;padding:16px 0}
+.bio .edu{margin-top:30px;padding-top:26px}
