@@ -11,17 +11,18 @@ rmarkdown::render_site(encoding = "UTF-8")
 # underscore. This empty file turns that off so every asset is published.
 file.create(file.path("docs", ".nojekyll"))
 
-# The custom domain, currently switched OFF. The site serves from
-# torts-simplified.github.io/torts-simplified/ while this line stays commented.
+# The custom domain. GitHub writes this file itself when the domain is saved
+# under Settings > Pages, but render_site() rewrites docs/ on every build and
+# would drop it, which silently detaches the domain. Writing it here means the
+# file survives every render and www.tortssimplified.com keeps serving the site.
 #
-# To turn the custom domain back on: uncomment the line below, render, commit
-# and push, then add tortssimplified.com under Settings > Pages. The DNS records
-# at Squarespace are already correct and do not need changing.
+# The value must match exactly what is set under Settings > Pages. It is the
+# www form, not the bare domain; writing the bare domain here would change the
+# setting on the next build.
 #
-# Why this lives here at all: GitHub writes this file itself when you save the
-# domain in Settings, but render_site() rewrites docs/ on every build and would
-# drop it, which silently detaches the domain. Writing it here survives that.
-#
-# writeLines("tortssimplified.com", file.path("docs", "CNAME"))
+# Leave this line active for as long as the site uses the custom domain. To go
+# back to torts-simplified.github.io/torts-simplified/, comment it out AND
+# remove the domain under Settings > Pages.
+writeLines("www.tortssimplified.com", file.path("docs", "CNAME"))
 
 message("Done. Commit the docs/ folder and push.")

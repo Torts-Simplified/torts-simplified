@@ -258,8 +258,7 @@
      Flattening the copy column lets the photo slot in between. */
   .contacthero{display:flex;flex-direction:column;align-items:stretch;gap:14px}
   .contacthero > div:not(.fimg){display:contents}
-  .contacthero > .fimg{order:5;align-self:center;width:min(280px,78%);max-width:none;margin-top:10px}
-  .contacthero .edu{order:6}
+  .contacthero > .fimg{order:-1;align-self:center;width:min(280px,78%);max-width:none;margin:0 0 22px}
 }
 
 /* Contact: centre the one call to action on phones. */
