@@ -498,7 +498,7 @@
    space-between threw the remaining one 760px away against the right edge,
    which read as a missing column. Sit them next to each other instead. */
 footer .fcols{justify-content:flex-start;gap:150px}
-@media (max-width:1180px){ footer .fcols{gap:60px} }
+@media (max-width:900px){ footer .fcols{gap:44px} }
 
 /* The previous attempt set the photo to 100% height, but a block with an
    image inside still reports that image's height, so the photo kept driving
@@ -558,8 +558,12 @@ section.pagetop:last-of-type{padding-bottom:104px}
    One narrow stacked column left most of the bar empty whichever way it was
    aligned. Laying the links out in a row gives the right-hand block real
    width, so the brand holds one edge and the links the other. */
-@media (min-width:1181px){
-  footer .fcols{justify-content:space-between;align-items:center;gap:40px}
+/* Applied from 901px rather than 1181px: between those widths the links were
+   still left-aligned, leaving ~495px of empty bar to their right. Below 901px
+   the brand and the link row together exceed the available width, so there
+   the footer stacks instead. */
+@media (min-width:901px){
+  footer .fcols{justify-content:space-between;align-items:center;gap:40px;flex-wrap:wrap}
   footer .fcol{flex-direction:row;align-items:center;gap:46px;min-width:0}
   footer .fcol .t{margin-bottom:0}
   footer .fcol a{font-size:19px}
@@ -570,4 +574,16 @@ section.pagetop:last-of-type{padding-bottom:104px}
 @media (max-width:760px){
   footer .fcols{gap:30px}
   footer{padding:44px 0 32px}
+}
+
+
+
+/* ================= phone tap targets =================
+   The nav and footer links measured 26-30px tall. 44px is the minimum for a
+   fingertip to hit reliably, so the touch area grows without the text moving:
+   the extra height is padding around the same type. */
+@media (max-width:760px){
+  header .links a:not(.btn){min-height:44px;display:inline-flex;align-items:center}
+  footer .fcol a{min-height:44px;display:inline-flex;align-items:center}
+  .contacthero .inlink{padding:3px 0}
 }
