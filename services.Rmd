@@ -12,13 +12,13 @@ pagetitle: "Services | Torts Simplified"
       <p class="lead" style="padding-bottom:6px">At Torts Simplified, we're committed to compliance and jurisdiction-specific ethical rules. We keep our fingers on the pulse of the constantly changing legal landscape.</p>
     </div>
     <div class="promises">
-      <div class="promise p-navy"><div class="row"><span class="chip">01</span><h3>Increase Profitability</h3></div>
+      <div class="promise p-cream"><div class="row"><span class="chip">01</span><h3>Increase Profitability</h3></div>
         <p>Drive more qualified leads into the pipeline, improve case quality, reduce costs, minimize fall out, and allocate resources toward the highest-value opportunities.</p></div>
       <div class="promise p-cream"><div class="row"><span class="chip">02</span><h3>Scale Faster</h3></div>
         <p>Quickly invest in and scale high-performing campaigns without having to allocate internal operational resources to build out the technology and infrastructure.</p></div>
-      <div class="promise p-gold"><div class="row"><span class="chip">03</span><h3>Operate More Efficiently</h3></div>
+      <div class="promise p-cream"><div class="row"><span class="chip">03</span><h3>Operate More Efficiently</h3></div>
         <p>Streamlined workflows, automated operational processes, and reduced administrative burdens free your team to focus on high-value decisions and client relationships.</p></div>
-      <div class="promise p-cyan"><div class="row"><span class="chip">04</span><h3>Maintain ownership and control</h3></div>
+      <div class="promise p-cream"><div class="row"><span class="chip">04</span><h3>Maintain ownership and control</h3></div>
         <p>Own your infrastructure, have complete visibility into case value, spending and performance, and access real-time data to make informed decisions.</p></div>
     </div>
   </div>
