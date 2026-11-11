@@ -1,6 +1,7 @@
 name: "torts-simplified"
 output_dir: "docs"
 exclude: ["build.R", "README.md", "*.Rproj", ".github", "includes"]
+include: ["CNAME", ".nojekyll"]
 
 output:
   html_document:
