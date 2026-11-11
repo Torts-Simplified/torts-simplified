@@ -60,7 +60,7 @@ pagetitle: "Torts Simplified"
     <div>
       <div class="eyebrow">Leadership</div>
       <h2 style="margin-top:22px">Serge Zenin, Esq., Founder &amp; CEO</h2>
-      <p class="lead" style="margin-top:24px">Torts Simplified is led by Serge Zenin, an expert in both building mass tort operations from scratch and optimizing and enhancing existing operations at every stage of the lifecycle.</p>
+      <p class="lead" style="margin-top:24px">Torts Simplified is led by Serge Zenin, an experienced attorney and expert in both building mass tort operations from scratch and optimizing and enhancing existing operations at every stage of the lifecycle.</p>
       <div class="bio" id="background">
         <div class="head-rule">
           <div class="eyebrow">Serge Zenin's background</div>
@@ -79,10 +79,9 @@ pagetitle: "Torts Simplified"
             <p>Conducted all phases of medical malpractice litigation.</p></div>
         </div>
         <div class="edu">
-          <div class="t">Education &amp; Bar Admissions</div>
+          <div class="t">Education</div>
           <div>J.D., Fordham University School of Law</div>
           <div>B.B.A., Operations Management, Minor: Finance. CUNY Baruch, Macaulay Honors College</div>
-          <div>Admitted in New York, New Jersey, and the Southern District of New York</div>
         </div>
       </div>
     </div>
